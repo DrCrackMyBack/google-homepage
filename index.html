@@ -1,25 +1,46 @@
 <!DOCTYPE html>
-<html> 
-    <head>
-        <style>
-            .headerleft {
-                display:flex;
-                justify-content: start;
-                padding-left: 5px;
-                padding-right: 5px;
-                
-            }
-        </style>
-    </head>
-    <body>
-        <div class="headerleft">
-            <a href="">About</a>
-            <a href="">Store</a>
-        </div>
-        <div class= "headerright">
-            <a href="">Gmail</a>
-            <a href="">Images</a> 
-        </div>
-        
-    </body>
+<html>
+
+<head>
+    <style>
+        #about{
+            padding-left: 15px;
+        }
+        #store{
+            padding-left: 15px;
+        }
+        .left_side{
+            display: block;
+            font-size: 15px;
+            font-family: arial,sans-serif;
+            margin: 7px 0 0 10px;
+            position:absolute;
+        }
+        .right_side{
+            text-align: right;
+            padding-left: 30px;
+            padding-right: 30px;
+            font-size: 15px;
+            font-family: arial,sans-serif;
+        }
+        #gmail{
+
+        }
+        #images{
+            padding-left: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="left_side">
+        <a id="about" href="">About</a>
+        <a id ="store" href="">Store</a>
+    </div>
+    <div class="right_side">
+        <a id ="gmail" href="">Gmail</a>
+        <a id ="images" href="">Images</a>
+    </div>
+</body>
+
 </html>
