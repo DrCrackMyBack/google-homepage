@@ -3,31 +3,41 @@
 
 <head>
     <style>
-        #about{
+        A{
+            text-decoration: none;
+        }
+        #about {
             padding-left: 15px;
         }
-        #store{
+
+        #store {
             padding-left: 15px;
         }
-        .left_side{
+
+        .left_side {
             display: block;
             font-size: 15px;
-            font-family: arial,sans-serif;
+            font-family: arial, sans-serif;
             margin: 7px 0 0 10px;
-            position:absolute;
+            position: absolute;
         }
-        .right_side{
+
+        .right_side {
             text-align: right;
             padding-left: 30px;
             padding-right: 30px;
             font-size: 15px;
-            font-family: arial,sans-serif;
+            font-family: arial, sans-serif;
         }
-        #gmail{
-
-        }
-        #images{
+        #images {
             padding-left: 15px;
+        }
+        .imagecontainer{
+            margin-top: 90px;
+            text-align: -webkit-center;
+        }
+        #image{
+            padding-top: 100px;
         }
     </style>
 </head>
@@ -35,11 +45,14 @@
 <body>
     <div class="left_side">
         <a id="about" href="">About</a>
-        <a id ="store" href="">Store</a>
+        <a id="store" href="">Store</a>
     </div>
     <div class="right_side">
-        <a id ="gmail" href="">Gmail</a>
-        <a id ="images" href="">Images</a>
+        <a id="gmail" href="">Gmail</a>
+        <a id="images" href="">Images</a>
+    </div>
+    <div class="imagecontainer">
+        <img id= "image" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="google logo">
     </div>
 </body>
 
