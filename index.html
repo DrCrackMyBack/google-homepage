@@ -54,17 +54,25 @@
         .searchbar {
             text-align: -webkit-center;
         }
+
         li {
             display: inline;
-            margin-left: 20px;
-            
+            padding-left: 20px;
+
         }
-        .footer1{
-            vertical-align: baseline;
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            position: fixed;
+            bottom: 0px;
+            width: 100%;
+            border: 1px solid #e4e4e4;
+            background-color:#f2f2f2;
         }
-         #rightfooter{
-            float: right;
-            margin-right: 10px;
+
+        #rightfooter {
+           padding-right:20px;
         }
     </style>
 </head>
@@ -87,8 +95,8 @@
             <input type="text" name="fname" id="textfield">
         </form>
     </div>
-    <div class="footer1">
-        <ul>
+    <div class="footer">
+        <ul id="leftFooter">
             <li><a href="">Advertising</a></li>
             <li></li><a href="">Business</a></li>
             <li></li><a href="">How Search Works</a></li>
